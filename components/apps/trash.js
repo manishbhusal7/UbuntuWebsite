@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
 import $ from 'jquery';
+import React, { Component } from 'react';
 
 export class Trash extends Component {
     constructor() {
@@ -19,19 +19,19 @@ export class Trash extends Component {
             },
 
             {
-                name: "abandoned project",
+                name: "Baal ho malai",
                 icon: "./themes/Yaru/system/folder.png"
             },
             {
-                name: "18BCP127 assignment name.zip",
+                name: "Manish name.zip",
                 icon: "./themes/filetypes/zip.png"
             },
             {
-                name: "project final",
+                name: "AI Yogatrainer(1)",
                 icon: "./themes/Yaru/system/folder.png"
             },
             {
-                name: "project ultra-final",
+                name: "Resume.pdf",
                 icon: "./themes/Yaru/system/folder.png"
             },
 

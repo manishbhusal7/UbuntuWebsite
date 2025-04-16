@@ -66,3 +66,4 @@ export class SideBarApp extends Component {
 }
 
 export default SideBarApp;
+

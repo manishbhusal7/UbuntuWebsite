@@ -12,9 +12,9 @@ export class Terminal extends Component {
         this.prev_commands = [];
         this.commands_index = -1;
         this.child_directories = {
-            root: ["books", "projects", "personal-documents", "skills", "languages", "PDPU", "interests"],
-            PDPU: ["Sem-6"],
-            books: ["Eric-Jorgenson_The-Almanack-of-Naval-Ravikant.pdf", "Elon Musk: How the Billionaire CEO of SpaceX.pdf", "The $100 Startup_CHRIS_GUILLEBEAU.pdf", "The_Magic_of_Thinking_Big.pdf"],
+            root: ["books", "projects", "personal-documents", "skills", "languages", "Mannu", "interests"],
+            Mannu: ["Sem-6"],
+            books: ["Intro to C++", "Java", "Python", "DSA", "OS", "DBMS"],
             skills: ["Front-end development", "React.js", "jQuery", "Flutter", "Express.js", "SQL", "Firebase"],
             projects: ["SympCareAI", "AIYOgaTrainer", "Plant Disease Detection", "MobileAPP", "SMS Sender", "ChatApplication", "QuizApp"],
             interests: ["Software Engineering", "CloudComputing", "Devops"],
@@ -194,7 +194,7 @@ export class Terminal extends Component {
                 }
 
                 if (rest === "personal-documents") {
-                    result = `bash /${this.curr_dir_name} : Permission denied 😏`;
+                    result = `bash /${this.curr_dir_name} : Permission denied `;
                     break;
                 }
 
@@ -203,7 +203,7 @@ export class Terminal extends Component {
                     this.curr_dir_name = rest;
                 }
                 else if (rest === "." || rest === ".." || rest === "../") {
-                    result = "Type 'cd' to go back 😅";
+                    result = "cd okay";
                     break;
                 }
                 else {
@@ -221,8 +221,8 @@ export class Terminal extends Component {
                 if (target in this.child_directories) {
                     result = this.childDirectories(target).join("");
                 }
-                else if (target === "personal-documents") {
-                    result = "Nope! 🙃";
+                else if (target === "documents") {
+                    result = "Nope! No access 🙃";
                     break;
                 }
                 else {

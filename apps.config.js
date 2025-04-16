@@ -21,7 +21,7 @@ const apps = [
     {
         id: "calc",
         title: "Calc",
-        icon: './themes/Yaru/apps/calc.png',
+        icon: './themes/Yaru/apps/calculator.png',
         disabled: false,
         favourite: true,
         desktop_shortcut: false,
@@ -84,7 +84,7 @@ const apps = [
     {
         id: "gedit",
         title: "Contact Me",
-        icon: './themes/Yaru/apps/gedit.png',
+        icon: './themes/Yaru/apps/contact.png',
         disabled: false,
         favourite: false,
         desktop_shortcut: true,

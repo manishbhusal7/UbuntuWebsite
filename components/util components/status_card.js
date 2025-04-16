@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SmallArrow from './small_arrow';
 import onClickOutside from 'react-onclickoutside';
+import SmallArrow from './small_arrow';
 
 class Slider extends Component {
 	render() {
@@ -95,7 +95,7 @@ export class StatusCard extends Component {
 						<img width="16px" height="16px" src="./themes/Yaru/status/network-wireless-signal-good-symbolic.svg" alt="ubuntu wifi" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between text-gray-400">
-						<span>OnePlus 8 Pro</span>
+						<span>Manish Iphone</span>
 						<SmallArrow angle="right" />
 					</div>
 				</div>
